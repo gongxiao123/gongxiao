@@ -10,6 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".NewsContentActivity"></activity>
+        <activity android:name="org.litepal.LitePalApplication"/>
         <activity android:name=".NewsTitleFragment" />
         <activity android:name=".FragmentTestActivity" />
         <activity android:name=".FragmentActivity" />
