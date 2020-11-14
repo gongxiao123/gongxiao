@@ -13,6 +13,11 @@ import androidx.appcompat.app.AppCompatActivity;
 public class MainActivity extends AppCompatActivity {
     private  final static String TAG = "MainActivity";
     @Override
+    public void onCreate() {
+        super.onCreate();
+        LitePal.initialize(this);
+    }
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
